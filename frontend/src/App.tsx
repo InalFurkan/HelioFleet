@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AppLayout from './components/layout/AppLayout';
+import FleetManagementPage from './pages/FleetManagementPage';
 
 // Sayfalar geldikçe bunları ayrı dosyalara taşıyacağız
 const OverviewPage = () => (
@@ -16,12 +17,6 @@ const ChargingStationsPage = () => (
   </div>
 );
 
-const FleetManagementPage = () => (
-  <div>
-    <h2 className="text-2xl font-bold tracking-tight">Fleet Management</h2>
-    <p className="text-sm text-gray-400 mt-1">BMC ve Mercedes elektrikli otobüs filosu kontrolü.</p>
-  </div>
-);
 
 const EnergyAndGridPage = () => (
   <div>
